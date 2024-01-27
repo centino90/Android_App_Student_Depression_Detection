@@ -10,8 +10,11 @@
 # Setup
 
 ## Start
+- Open JDK
+ - https://builds.openlogic.com/downloadJDK/openlogic-openjdk/11.0.17+8/openlogic-openjdk-11.0.17+8-windows-x64.msi
 - Variables
  - ANDROID_HOME e.g. C:\Users\antho\AppData\Local\Android\Sdk\
+ - JAVA_HOME e.g. C:\Program Files\OpenJDK\jdk-11.0.17.8-hotspot\
 - Android Libraries
  - Android SDK Platform 31
  - Google APIs Intel x86 Atom System Image
