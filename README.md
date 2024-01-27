@@ -2,12 +2,21 @@
 
 # Flow
 1. Install required programs or dependencies
- 1.1 Make sure **android** folder is inside **frontend** folder
+ 1.1 Make sure **android** folder is inside **frontend** folder https://drive.google.com/file/d/10p4Wgn5uKS3gl5iFLmqcvLNJ-dAWV7ID/view?usp=sharing
 2. Turn on emulator in android studio ( wait until it finish loading and you can see the phone screen )
 3. Run ./init-backend.sh
 4. Run ./init-frontend.sh
 
 # Setup
+
+## Start
+- Variables
+ - ANDROID_HOME e.g. C:\Users\antho\AppData\Local\Android\Sdk\
+- Android Libraries
+ - Android SDK Platform 31
+ - Google APIs Intel x86 Atom System Image
+- Android Emulator
+ - Use Google API 31
 
 ## Installlation
 - Android Studio https://redirector.gvt1.com/edgedl/android/studio/install/2022.3.1.20/android-studio-2022.3.1.20-windows.exe
