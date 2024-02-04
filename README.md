@@ -20,6 +20,24 @@
  - Google APIs Intel x86 Atom System Image
 - Android Emulator
  - Use Google API 31
+- Frontend/Node_Modules/expo-modules-core/android/build.gradle
+ - remove entire block with ```externalNativeBuild REACT_NATIVE_TARGET_VERSION >= 71```
+- android/app/build.gradle
+ - add this line of code at the end ```apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"```
+- usb phone
+ - disable dark mode (in Display and Brightness)
+ - connect phone to pc with a connector
+ - enable developer mode (tap version in about phone)
+ - enable usb debug mode (in additional settings)
+ - switch usb configuration to "usb tethering"
+ - to restart adb session, 
+  - disable usb tethering and enable back again
+  - run adb reverse
+  - run android command again
+ - enable pc and phone network
+ - run ```adb usb```
+ - run ```adb devices```
+
 
 ## Installlation
 - Android Studio https://redirector.gvt1.com/edgedl/android/studio/install/2022.3.1.20/android-studio-2022.3.1.20-windows.exe
